@@ -8,7 +8,7 @@ import schema from "./dbSchema.js";
 const appConfig = express();
 const port = process.env.PORT || 8002;
 const connectionString =
-  "mongodb+srv://admin:1zcQDQF1TsqVUedm@cluster0.ejfqoiv.mongodb.net/?retryWrites=true&w=majority";
+  "<Get string from local>";
 
 //dbconfig
 mongoose.connect(connectionString);
