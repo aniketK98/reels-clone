@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+*{
+  margin: 0;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  height: 100vh;
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.app_videos {
+  position: relative;
+  /* height:85vh; */
+  height: 700px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 20px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  --ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app_videos::-webkit-scrollbar {
+  display: none;
+}
